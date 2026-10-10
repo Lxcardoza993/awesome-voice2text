@@ -93,8 +93,8 @@ Typeless, Lazytype, and Shandianshuo (闪电说) are powerful but closed-source.
 | [Elograf](https://github.com/papoteur-mga/elograf) | 82 | GPL-3.0 | Python 3.7+, PyQt6, Vosk, ujson | 4 | ✅ | ✅ | ✅ | ⚠️ |
 | [QuickDictate](https://github.com/kristian-dott-42/QuickDictate) | 1 | MIT | Swift | 4 | ✅ | ✅ | ✅ | ⚠️ |
 | [Voicisst](https://github.com/lucyfromnaarm/voicisst) | 0 | MIT | Python | 4 | ✅ | ✅ | ⚠️ | ◐ |
-| [dsnote (Speech Note)](https://github.com/mkiol/dsnote) | 1,525 | MPL-2.0 | C++17, Qt5/QML, CMake, Python | 3.5 | ✅ | ⚠️ | ⚠️ | ✅ |
-| [VoiceFlow](https://github.com/infiniV/VoiceFlow) | 393 | MIT | Python, React, Vite, faster-whisper | 3.5 | ✅ | ⚠️ | ✅ | ◐ |
+| [Cadenza](https://github.com/DragonKingIO/Cadenza-voice) | 3 | MIT | Swift | 4 | ✅ | ✅ | ✅ | ✅ |
+| [dsnote (Speech Note)](https://github.com/mkiol/dsnote) | 1,525 | MPL-2.0 | C++17, Qt5/QML, CMake, Python | 3.5 | ✅ | ⚠️ | ⚠️ | ✅ || [VoiceFlow](https://github.com/infiniV/VoiceFlow) | 393 | MIT | Python, React, Vite, faster-whisper | 3.5 | ✅ | ⚠️ | ✅ | ◐ |
 | [voice-input-method](https://github.com/pofice/voice-input-method) | 38 | GPL-3.0-or-later | Python 3.10+ | 3.5 | ✅ | ✅ | ✅ | ✅ |
 | [Vosk-STT-Chrome-Extension](https://github.com/crrrowz/Vosk-STT-Chrome-Extension) | 0 | MIT | JavaScript (Manifest V3), Python | 3.5 | ⚠️ | ✅ | ✅ | ⚠️ |
 | [PaddleSpeech](https://github.com/PaddlePaddle/PaddleSpeech) | 12,636 | Apache-2.0 | Python, C++ | 3 | ✅ | ✅ | ⚠️ | ✅ |
@@ -178,6 +178,7 @@ Native macOS dictation apps built with Swift and WhisperKit, supporting global h
 - [hush](https://github.com/djmunro/hush) — A macOS push-to-talk dictation app using local Whisper/Parakeet ONNX with auto-paste via hotkey.
 - [WhisperDictation](https://github.com/sam-pop/WhisperDictation) — A macOS menu-bar dictation app using offline Whisper with Metal GPU acceleration and cursor text injection.
 - [whisper-dictation](https://github.com/ashwin-pc/whisper-dictation) — Apple macOS menu-bar app records on Globe/Fn release, transcribes via faster-whisper, and pastes at cursor.
+- [Cadenza](https://github.com/DragonKingIO/Cadenza-voice) — Local-first macOS voice input: hold a hotkey, speak, text appears at cursor; SenseVoice/Parakeet on-device.
 
 ### AI Speech Cleanup / LLM Post-Processing
 

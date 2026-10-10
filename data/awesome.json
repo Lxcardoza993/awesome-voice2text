@@ -2703,6 +2703,23 @@
       "extensibility_evidence": "Modular Xcode targets (DictusApp / DictusKeyboard / DictusCore), App Group shared framework, configurable Whisper model sizes (tiny/base/small), multiple keyboard layouts and languages, open to contributions via GitHub issues/PRs. iOS keyboard extension sandbox limits true third-party plugin architecture.",
       "fully_open_evidence": "MIT license (OSI approved), full source code published on GitHub, no paid core feature gate or cloud service required. Roadmap and docs are in-repo.",
       "corrections": "1) QWERTZ layout is NOT implemented yet — KeyboardLayoutData/LayoutType only defines azerty/qwerty; German QWERTZ is deferred to open issue #151. 2) Language support is FR/EN/ES/DE, not just FR/EN/DE; Spanish is present in SupportedLanguage.swift. 3) Storage claim of ~100–500 MB is understated — current catalog includes Parakeet v3 (~800 MB) and Whisper Turbo _954MB (~954 MB); only Tiny/Base/Small fit the quoted range. 4) Repository is very young (created 2026-03-04, last pushed 2026-06-19, 12 stars, 3 forks, 40 open issues); core functionality exists but is still early-stage."
+    },
+    {
+      "name": "Cadenza",
+      "repo_url": "https://github.com/DragonKingIO/Cadenza-voice",
+      "owner_repo": "DragonKingIO/Cadenza-voice",
+      "what_it_does": "macOS 本地优先语音输入工具：按住快捷键说话，松开后文本直接上屏；本地运行 SenseVoice、FireRedASR2 或 Parakeet（sherpa-onnx），云端可选（自备 key），无账号、无遥测。",
+      "category": "Native macOS Dictation",
+      "license": "MIT",
+      "fully_open_source": true,
+      "language_stack": "Swift, SwiftUI",
+      "lightweight": true,
+      "extensible": true,
+      "platform_support": ["Mac"],
+      "last_pushed": "2026-10-10T10:51:15Z",
+      "activity_status": "active",
+      "chinese_support": "✅",
+      "key_features": ["按住说话、松开上屏的全局快捷键", "本地运行 SenseVoice / FireRedASR2 / Parakeet，无需联网", "录音不写盘，无账号、无遥测", "可选云端识别（自备 API key）", "中英混读与标点整理"]
     }
   ],
   "synthesis": {
